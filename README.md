@@ -13,7 +13,7 @@ lists → cards**.
 > Two viewpoints must shine:
 >
 > 1. **User interface**: what a non‑technical manager experiences.
-> 2. **Engineering craft**: what a senior developer inspects in the repo.
+> 2. **Engineering craft**: what a senior developer inspects in the repo..
 
 ### Starter Skeleton
 A minimal non‑functional code skeleton is provided in the repo. feel free to reshape or replace anything.
