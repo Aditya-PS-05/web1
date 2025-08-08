@@ -27,25 +27,25 @@ Anything marked *Stretch* is optional and should only be attempted **after** the
 
 | ID     | Title                                                         | Effort |    Status    |
 |--------|---------------------------------------------------------------|:------:|:------------:|
-| **U0** | Core CRUD: create/edit/delete boards, lists & cards           |   ★★   | **Required** |
-| **U1** | Responsive board UI with drag-&-drop lists/cards (`@dnd-kit`) |  ★★★★  | **Required** |
-| **U2** | Dark/Light theme toggle (system+ manual)                      |   ★    | **Required** |
-| **U3** | Empty states & skeleton loaders                               |   ★    | **Required** |
-| U4     | Landing page with animated hero & CTA                         |   ★★   |   Stretch    |
-| U5     | Inline card editor with markdown preview                      |  ★★★   |   Stretch    |
+| **U0** | Core CRUD: create/edit/delete boards, lists & cards           |   ★★   |   **Done**   |
+| **U1** | Responsive board UI with drag-&-drop lists/cards (`@dnd-kit`) |  ★★★★  |   **Done**   |
+| **U2** | Dark/Light theme toggle (system+ manual)                      |   ★    |   **Done**   |
+| **U3** | Empty states & skeleton loaders                               |   ★    |   **Done**   |
+| U4     | Landing page with animated hero & CTA                         |   ★★   |   **Done**   |
+| U5     | Inline card editor with markdown preview                      |  ★★★   |   **Done**   |
 | U6     | Real‑time presence avatars via WebSocket                      |   ★★   |   Stretch    |
-| U7     | Keyboard‑shortcut cheat‑sheet (`?` overlay)                   |   ★    |   Stretch    |
-| U8     | Accessibility pass (WCAGAA, focus, aria)                      |   ★★   |   Stretch    |
-| U9     | Public read‑only board share link                             |   ★★   |   Stretch    |
+| U7     | Keyboard‑shortcut cheat‑sheet (`?` overlay)                   |   ★    |   **Done**   |
+| U8     | Accessibility pass (WCAGAA, focus, aria)                      |   ★★   |   **Done**   |
+| U9     | Public read‑only board share link                             |   ★★   |   **Done**   |
 
 ### 2.2 · Engineering Track
 
 | ID     | Title                                                   | Effort |    Status    |
 |--------|---------------------------------------------------------|:------:|:------------:|
-| **E0** | API routes & server actions for CRUD boards/lists/cards |   ★★   | **Required** |
-| **E1** | Manual auth: signup/login, cookie session, CSRF token   |  ★★★★  | **Required** |
-| **E2** | MongoDB schema & indexes: boards/lists/cards            |   ★★   | **Required** |
-| **E3** | Global error boundary+ basic logging (own util)         |   ★    | **Required** |
+| **E0** | API routes & server actions for CRUD boards/lists/cards |   ★★   |   **Done**   |
+| **E1** | Manual auth: signup/login, cookie session, CSRF token   |  ★★★★  |   **Done**   |
+| **E2** | MongoDB schema & indexes: boards/lists/cards            |   ★★   |   **Done**   |
+| **E3** | Global error boundary+ basic logging (own util)         |   ★    |   **Done**   |
 | E4     | Role‑based access control (owner/editor/viewer)         |   ★★   |   Stretch    |
 | E5     | Optimistic UI with server actions & cache tags          |   ★★   |   Stretch    |
 | E6     | Edge‑runtime rate limiter for writes (no libs)          |   ★    |   Stretch    |
