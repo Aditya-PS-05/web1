@@ -288,7 +288,12 @@ export function BoardView({ boardId }: BoardViewProps) {
         </div>
 
         <DndContext sensors={sensors} onDragStart={handleDragStart} onDragOver={handleDragOver} onDragEnd={handleDragEnd}>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 pb-6" role="main" aria-labelledby="board-title" aria-describedby="board-description">
+          <div
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 pb-6"
+            role="main"
+            aria-labelledby="board-title"
+            aria-describedby="board-description"
+          >
             <SortableContext items={state.currentBoard.lists.map((list) => list._id)} strategy={horizontalListSortingStrategy}>
               {state.currentBoard.lists.map((list: List) => (
                 <ListColumn key={list._id} list={list} />

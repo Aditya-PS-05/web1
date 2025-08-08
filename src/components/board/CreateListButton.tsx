@@ -59,11 +59,7 @@ export function CreateListButton({ onCreateList }: CreateListButtonProps) {
   }
 
   return (
-    <Button
-      onClick={() => setIsCreating(true)}
-      variant="secondary"
-      size="sm"
-    >
+    <Button onClick={() => setIsCreating(true)} variant="secondary" size="sm">
       + Add another list
     </Button>
   );

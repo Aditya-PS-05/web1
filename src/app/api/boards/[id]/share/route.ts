@@ -25,7 +25,7 @@ export async function GET(request: NextRequest, { params }: { params: { id: stri
     }
 
     // Check if user owns the board
-    if (board.ownerId.toString() !== decoded.userId) {
+    if (board.ownerId.toString() !== decoded.id) {
       return NextResponse.json({ message: "Access denied" }, { status: 403 });
     }
 
@@ -61,7 +61,7 @@ export async function POST(request: NextRequest, { params }: { params: { id: str
     }
 
     // Check if user owns the board
-    if (board.ownerId.toString() !== decoded.userId) {
+    if (board.ownerId.toString() !== decoded.id) {
       return NextResponse.json({ message: "Access denied" }, { status: 403 });
     }
 
